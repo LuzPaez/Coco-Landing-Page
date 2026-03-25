@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>COCO</title>
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav class="nav">
+
+        <div class="nav__logo">
+            CO<span>CO</span>
+        </div>
+
+        <ul class="nav__links">
+            <li><a href="#conocer">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#gallery">Galería</a></li>
+            <li><a href="#form">Contacto</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- HERO -->
+
+    <header id="inicio" class="hero">
+        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b" alt="fashion">
+        <div class="hero__content">
+            <h1>LA MODE <span>ET L'AMOUR</span></h1>
+            <button id="conocer" class="btn">Conoce más</button>
+        </div>
+    </header>
+
+    <div id="modalEmpresa" class="modal">
+
+        <div class="modal-content">
+
+            <span class="cerrar">&times;</span>
+
+            <h2>Sobre COCO</h2>
+
+            <p>
+                COCO es una marca inspirada en la elegancia atemporal de la moda francesa.
+                Nuestra misión es ofrecer prendas modernas, minimalistas y sofisticadas
+                para cada momento del día.
+            </p>
+
+            <p>
+                Creemos que la moda es una forma de expresión y cada colección busca
+                combinar estilo, comodidad y personalidad.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div id="nosotros" class="nosotros">
+        <div class="nosotros__text">
+            <h1>Nosotros</h1>
+            <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, accusamus delectus. Ex dolorum
+                perferendis nulla</h3>
+        </div>
+        <div class="div nosotros__img">
+            <img
+                src="https://images.unsplash.com/photo-1549439602-43ebca2327af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+        </div>
+    </div>
+    <!-- GALERIA -->
+
+    <section id="gallery" class="gallery">
+
+        <div class="gallery__grid">
+
+            <img class="big"
+                src="https://plus.unsplash.com/premium_photo-1664202526559-e21e9c0fb46a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b">
+            <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c">
+            <img class="wide" src="https://images.unsplash.com/photo-1519741497674-611481863552">
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f">
+            <h1>Colección de Temporada</h1>
+        </div>
+
+    </section>
+
+    <!--FORMS-->
+
+    <section id="form" class="form-section">
+
+        <div class="form-container">
+
+            <div class="form-image">
+                <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b" alt="">
+            </div>
+
+            <form id="fashionForm" class="form">
+
+                <h2>Únete a nuestra comunidad</h2>
+                <p>Recibe novedades y ofertas exclusivas</p>
+
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Nombre</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="input-group">
+                    <textarea id="message" rows="4" required></textarea>
+                    <label for="message">Mensaje</label>
+                </div>
+
+                <button class="btn">Enviar</button>
+
+                <p id="formMessage"></p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <h2>COCO</h2>
+
+        <p>Moda y elegancia para cada momento.</p>
+
+        <div class="footer__social">
+
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-pinterest"></i>
+
+        </div>
+
+        <p class="footer__copy">
+            © 2026 COCO Fashion
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
